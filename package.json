@@ -1,0 +1,25 @@
+{
+  "name": "vue-vite-tailwind-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "vite build && vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.24"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.1",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.7",
+    "vite": "^2.7.4",
+    "vite-plugin-eslint": "^1.3.0",
+    "vite-plugin-pwa": "^0.11.12",
+    "vite-svg-loader": "^3.1.1"
+  }
+}

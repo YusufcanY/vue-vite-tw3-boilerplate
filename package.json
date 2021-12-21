@@ -1,6 +1,7 @@
 {
   "name": "vue-vite-tailwind-starter",
   "version": "0.0.0",
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -8,7 +9,8 @@
     "test": "vite build && vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.24"
+    "vue": "^3.2.24",
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.1",

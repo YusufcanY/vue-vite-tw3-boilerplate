@@ -4,7 +4,6 @@ This boilerplate have:
 - Vue 3
 - Vue Router Next (v4)
 - Vite 2
-  - PWA Plugin
   - SVG Loader
   - Eslint Plugin
 - Tailwindcss 3
@@ -27,4 +26,10 @@ for run build and start on production
 
 ```
 yarn test
+```
+
+for format all files with prettier
+
+```
+yarn format
 ```

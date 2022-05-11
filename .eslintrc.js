@@ -1,17 +1,14 @@
 module.exports = {
-    env: {
-        node: true,
-    },
-    extends: [
-        'eslint:recommended',
-        'plugin:vue/vue3-strongly-recommended',
-    ],
-    rules: {
-        indent: ['error', 4],
-        semi: ['error', 'always'],
-        'vue/html-indent': ['error', 4],
-        'vue/script-indent': ['error', 4],
-        'vue/one-component-per-file': 'off',
-        'vue/max-attributes-per-line': 'off'
-    }
-};
+  env: {
+    'vue/setup-compiler-macros': true,
+    node: true,
+  },
+  extends: ['eslint:recommended', 'plugin:vue/vue3-recommended', 'prettier'],
+  plugins: ['json', 'prettier'],
+  rules: {
+    'prettier/prettier': 'warn',
+    'vue/multi-word-component-names': 'off',
+    'vue/no-template-shadow': 'off',
+    'vue/script-setup-uses-vars': 'warn',
+  },
+}

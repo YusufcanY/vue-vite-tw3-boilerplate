@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="flex h-screen items-center justify-center bg-gradient-to-r from-purple-500 to-primary"
-  >
+  <div class="flex h-screen items-center justify-center bg-slate-800">
     <Counter />
   </div>
 </template>

@@ -1,9 +1,8 @@
-This boilerplate have:
+### This boilerplate have:
 
--
 - Vue 3
 - Vue Router Next (v4)
-- Vite 2
+- Vite 4
   - SVG Loader
   - Eslint Plugin
 - Tailwindcss 3

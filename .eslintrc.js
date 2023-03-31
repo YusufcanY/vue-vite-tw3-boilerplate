@@ -5,6 +5,13 @@ module.exports = {
   },
   extends: ['eslint:recommended', 'plugin:vue/vue3-recommended', 'prettier'],
   plugins: ['json', 'prettier'],
+  globals: {
+    $ref: 'readonly',
+    $computed: 'readonly',
+    $shallowRef: 'readonly',
+    $customRef: 'readonly',
+    $toRef: 'readonly',
+  },
   rules: {
     'prettier/prettier': 'warn',
     'vue/multi-word-component-names': 'off',

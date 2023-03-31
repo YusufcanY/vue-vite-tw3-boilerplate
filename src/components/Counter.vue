@@ -19,10 +19,8 @@
 </template>
 
 <script setup>
-  import { ref } from 'vue'
+  let counter = $ref(0)
 
-  const counter = ref(0)
-
-  const increment = () => counter.value++
-  const decrement = () => !!counter.value && counter.value--
+  const increment = () => counter++
+  const decrement = () => !!counter && counter--
 </script>
